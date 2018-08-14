@@ -1,23 +1,23 @@
 {
   "name": "insight-ui",
-  "description": "A bitcoin block explorer and API.",
+  "description": "A bitcoin core block explorer and API.",
   "version": "1.0.0",
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/bitcoin-cored/insight.git",
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/bitcoin-cored/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/bitcoin-cored/insight",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight-ui",
     "blockchain",
     "block explorer",
-    "bitcoin",
-    "bitcore",
+    "bitcoin core",
+    "bcore",
     "API"
   ],
-  "bitcoreNode": "bitcore-node",
+  "bitcoreNode": "bcore-node",
   "scripts": {
     "postinstall": "run-s install-app",
     "install-app": "cd app && npm install",
